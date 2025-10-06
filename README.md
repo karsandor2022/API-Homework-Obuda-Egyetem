@@ -9,9 +9,7 @@ To run this project locally, you need to have Python and pip installed on your m
 
 1. Clone this repository:
 ```bash
-  git clone https://github.com/frdayvz85/assignment1.git
-  or
-  git@github.com:frdayvz85/assignment1.git
+  https://github.com/DhulfiqarZoltan/API-Homework-Obuda-Egyetem.git
 ```   
 2. Navigate into the project directory:
 ```bash
