@@ -3,7 +3,6 @@ from fastapi import APIRouter, HTTPException
 from typing import List
 from .models import Event
 from .file_storage import EventFileManager
-import random
 
 router = APIRouter()
 
@@ -98,9 +97,8 @@ async def get_joiners_multiple_meetings():
 
     if not filtered_joiners:
         return {"message": "No joiners attending at least 2 meetings"}
-
-    random_joiner = random.choice(filtered_joiners)
-    return random_joiner
+    else:
+        return filtered_joiners
 
 
 class EventAnalyzer:
